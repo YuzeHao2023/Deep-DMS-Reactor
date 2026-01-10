@@ -44,11 +44,45 @@ To address the issues in the traditional parameter optimization of tubular fixed
 
 # Reaction Process Construction
 
+We use ASPEN PLUS V12 software to construct Chemical Engineering Process.
+
+![](asserts/process/process.png)
+
 # Automated Simulation
+
+For Automated Simulation, we build [pyaspenplus](https://github.com/YuzeHao2023/pyaspenplus) to accelating simulation.
 
 # Benchmark
 
+We use pyaspenplus to automation simulated 482 results as a benchmark, labeling as Mass flow rate of DMS in the outlet stream.
+
+![](asserts/benchmark/benchmark.jpg)
+
+![](asserts/benchmark/heatmap.png)
+
 # Deep Leaning Model Training
+
+We have trained about 11 Machine Learning Model and select TabPFN Model to Interpretable data.
+
+Model reslts is listed below:
+
+| Model               | R-Square Value  | RMSE Value                   |
+|---------------------|-----------------|------------------------------|
+| TabPFN Transformer  | 0.9249          | 1.793                        |
+| Random Forest       | 0.9200          | 2.135                        |
+| KNN                 | 0.9070          | 2.303                        |
+| GradientBoosting    | 0.8930          | 2.477                        |
+| GBM                 | 0.8840          | 2.577                        |
+| ElasticNet          | 0.8560          | 2.867                        |
+| PLSRegression       | 0.8490          | 2.938                        |
+| SVM                 | 0.8300          | 3.177                        |
+| Decision Tree       | 0.8150          | 3.247                        |
+| Linear Regression   | 0.7680          | 3.713                        |
+| Neural Network      | -3784.3676      | 3740.327                     |
+
+![](asserts/training/ttraining.png)
+
+<p align = "center">TabPFN Training figure<p>
 
 # Model Interpretability
 
