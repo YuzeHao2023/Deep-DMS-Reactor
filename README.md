@@ -2,13 +2,6 @@
 
   <h1 align="center">Deep-DMS-Reactor</h1>
 
-  <p align="center">
-
-  <a href="http://makeapullrequest.com">
-      <img alt="pull requests welcome badge" src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat">
-    </a>
-  </p>
-
   <p align="center">Yuze Hao, Kai Hou, Xiang Li, Rui-Rui Shi, Lan Duo and Changyan Li</p>
 
   <p align="center">College of Chemistry and Chemical Engineering, Inner Mongolia University, Hohhot 010021, China.</p>
@@ -41,6 +34,10 @@ To address the issues in the traditional parameter optimization of tubular fixed
 ![](asserts/intro/DMSreactor.svg)
 
 <p align = "center">Reaction Process<p>
+
+<div align="right">
+    <b><a href="#Table-of-contents">↥ back to top</a></b>
+</div>
 
 # Reaction Process Construction
 
