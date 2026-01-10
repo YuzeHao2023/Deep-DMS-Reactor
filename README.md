@@ -24,7 +24,7 @@
 - [Model Inference](#Model-Inference)
 - [Reactor Optimization result](#Reactor-Optimization-result)
 - [Citation](#Citation)
-- [Fast Start](#Tast-Start)
+- [Fast Start](#Fast-Start)
 
 
 
