@@ -78,6 +78,7 @@ We have trained about 11 Machine Learning Model and select TabPFN Model to Inter
 
 Model reslts is listed below:
 
+TABLE 1 Machine Learning Model results
 | Model               | R-Square Value  | RMSE Value                   |
 |---------------------|-----------------|------------------------------|
 | TabPFN Transformer  | 0.9249          | 1.793                        |
