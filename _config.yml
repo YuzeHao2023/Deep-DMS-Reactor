@@ -1,0 +1,28 @@
+# GitHub Pages 配置
+
+## 项目名称
+title: Deep DMS Reactor
+
+## 项目描述  
+description: 分子结构可视化中心
+
+## 主题
+theme: jekyll-theme-minimal
+
+## 基础 URL
+baseurl: "/Deep-DMS-Reactor"
+
+## 生成设置
+markdown: kramdown
+plugins:
+  - jekyll-feed
+
+# 排除文件
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - src/
+  - data/
+  - asserts/
+  - requirements.txt

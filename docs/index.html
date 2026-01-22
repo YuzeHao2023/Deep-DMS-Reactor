@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deep DMS Reactor - 分子结构可视化</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            padding: 60px 40px;
+            max-width: 900px;
+            width: 100%;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 15px;
+            font-size: 2.5em;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #666;
+            margin-bottom: 50px;
+            font-size: 1.1em;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+            margin-bottom: 30px;
+        }
+
+        .card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 12px;
+            overflow: hidden;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            text-decoration: none;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 30px;
+            color: white;
+            text-align: center;
+            min-height: 200px;
+        }
+
+        .card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+        }
+
+        .card h2 {
+            font-size: 1.4em;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+
+        .card p {
+            font-size: 0.95em;
+            opacity: 0.95;
+            line-height: 1.5;
+        }
+
+        .card:nth-child(1) {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+
+        .card:nth-child(2) {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+        }
+
+        .card:nth-child(3) {
+            background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+        }
+
+        .card:nth-child(4) {
+            background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
+        }
+
+        .card:nth-child(5) {
+            background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);
+        }
+
+        .footer {
+            text-align: center;
+            color: #999;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+            font-size: 0.9em;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 30px 20px;
+            }
+
+            h1 {
+                font-size: 1.8em;
+            }
+
+            .grid {
+                grid-template-columns: 1fr;
+            }
+
+            .card {
+                min-height: 150px;
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🧬 Deep DMS Reactor</h1>
+        <p class="subtitle">分子结构可视化中心</p>
+
+        <div class="grid">
+            <a href="h2s_molecule.html" class="card">
+                <h2>H₂S 分子</h2>
+                <p>硫化氢分子结构</p>
+            </a>
+
+            <a href="CH3SH_molecule.html" class="card">
+                <h2>CH₃SH 分子</h2>
+                <p>甲硫醇分子结构</p>
+            </a>
+
+            <a href="(CH3)2S_molecule.html" class="card">
+                <h2>(CH₃)₂S 分子</h2>
+                <p>二甲硫醚分子结构</p>
+            </a>
+
+            <a href="H_O_Zn_O_ion.html" class="card">
+                <h2>H-O-Zn-O 离子</h2>
+                <p>含锌氧化物离子结构</p>
+            </a>
+
+            <a href="CH3_O_Zn_O_ion.html" class="card">
+                <h2>CH₃-O-Zn-O 离子</h2>
+                <p>含锌甲基氧化物离子结构</p>
+            </a>
+        </div>
+
+        <div class="footer">
+            <p>© 2026 Deep DMS Reactor | <a href="https://github.com/YuzeHao2023/Deep-DMS-Reactor" target="_blank" style="color: #667eea; text-decoration: none;">GitHub 仓库</a></p>
+        </div>
+    </div>
+</body>
+</html>
