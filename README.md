@@ -11,7 +11,8 @@
 
   <p align="center">Interpretability Deep learning model for optimizing a tubular plug flow reactor in the methanol-hydrogen sulfide to DMS process.</p>
 
----
+![](https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif)
+
 
 # Table of contents
 
