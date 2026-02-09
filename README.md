@@ -2,7 +2,7 @@
 
   <h1 align="center">Deep-DMS-Reactor</h1>
 
-  <p align="center">Yuze Hao, Kai Hou, Xiang Li, Rui-Rui Shi, Lan Duo and Changyan Li*</p>
+  <p align="center">Yuze Hao, Kai Hou, Xiang Li, Rui-Rui Shi, Lan Duo and <strong>Changyan Li*</strong></p>
 
   <p align="center">College of Chemistry and Chemical Engineering, Inner Mongolia University, Hohhot 010021, China.</p>
 
